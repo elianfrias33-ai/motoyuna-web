@@ -1,0 +1,33 @@
+{
+  "found": [
+    {"slug": "bajaj-platina-125", "file": "bajaj-platina-125.webp", "sourceUrl": "https://cdn.bajajauto.com/en-do/-/media/globalbajajauto/common-media/product-detail-page-banners/platina/platina-125.webp", "pageUrl": "https://legacy.bajajauto.com/en-do/bikes", "confidence": "high", "note": "Bajaj Dominican Republic official. 1640x997, transparent bg, side view, red."},
+    {"slug": "bajaj-boxer-150", "file": "bajaj-boxer-150.webp", "sourceUrl": "https://cdn.bajajauto.com/en-do/-/media/globalbajajauto/common-media/product-detail-page-banners/boxer/150-bm.webp", "pageUrl": "https://legacy.bajajauto.com/en-do/bikes", "confidence": "high", "note": "Boxer BM 150, Bajaj DR official. 1640x997, transparent bg, black with green/yellow graphics."},
+    {"slug": "kymco-agility-125", "file": "kymco-agility-125.webp", "sourceUrl": "https://kymco.com.mx/wp-content/uploads/2026/01/AGILITY-125_vistas_01.webp", "pageUrl": "https://kymco.com.mx/modelos/movilidad-urbana/agility-125/", "confidence": "medium", "note": "Kymco Mexico official, 1000x1000 3/4 view, white bg. Correct model but shown in YELLOW, not in Motoyuna's color list."},
+    {"slug": "sym-jet-200", "file": "sym-jet-200.webp", "sourceUrl": "https://www.sym-global.com/storage/architecture/product~126/product~134/product~166/product~184/color/GY.webp", "pageUrl": "https://www.sym-global.com/jet14evo", "confidence": "medium", "note": "SYM global official JET 14 EVO, gray, 800x700 transparent 3/4. Unclear whether Motoyuna's 'Jet 200' is this EVO or the older Jet 14 200."},
+    {"slug": "honda-supercub-50", "file": "honda-supercub-50.jpg", "sourceUrl": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2017/10/dl/2171019-supercub_005H.jpg", "pageUrl": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub/image_download.html", "confidence": "high", "note": "Honda press image, Tasmania Green Metallic, 3500x2887 side view. CROP bottom ~270px (white caption band 'Super Cub 50 2017.10.19')."},
+    {"slug": "honda-lead-100", "file": "honda-lead-100.jpg", "sourceUrl": "https://global.honda/content/dam/site/global-jp/news-new/cq_img/2001/06/dl/mc200106_ld1001_01001H.jpg", "pageUrl": "https://global.honda/jp/news/2001/2010629a-lead.html", "confidence": "high", "note": "Honda press image LEAD 100 (JF06 era, 2001), silver/gray 3/4 view, 1791x1374. CROP bottom ~140px (caption band 'LEAD 100 2001.06.29')."},
+    {"slug": "honda-dio-50", "file": "honda-dio-50.jpg", "sourceUrl": "https://global.honda/content/dam/site/global-jp/news-new/cq_img/2003/10/dl/mc0310007H.jpg", "pageUrl": "https://global.honda/jp/news/2003/2031016-dio.html", "confidence": "medium", "note": "Honda press image Dio (AF62, 2003), silver 3/4, 1791x1278. Generation may differ from Motoyuna's black unit (AF68 looks similar). CROP bottom ~130px (caption band)."},
+    {"slug": "yamaha-cygnus-6g-monster", "file": "yamaha-cygnus-6g-monster.jpg", "sourceUrl": "https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/monster-energy/img/monster-energy_index_color_2022_001.jpg", "pageUrl": "https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/monster-energy/", "confidence": "high", "note": "Yamaha Japan official, Cygnus Gryphus Monster Energy Yamaha MotoGP Edition, 1012x664 side view white bg. Black/blue/green matches listing."},
+    {"slug": "yamaha-cygnus-6g-60th", "file": "yamaha-cygnus-6g-60th.jpg", "sourceUrl": "http://web.archive.org/web/20221014082802im_/https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/wgp60th/img/cygnus-gryphus_60th_color_2021_001.jpg", "pageUrl": "https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/wgp60th/ (archived 2022-10-14)", "confidence": "medium", "note": "Official Yamaha Japan WGP 60th Anniversary edition (via Wayback), 1012x664 side, white/red, gold wheels. Taiwan version adds a yellow front panel that this Japan version lacks."},
+    {"slug": "yamaha-jog-50", "file": "yamaha-jog-50.jpg", "sourceUrl": "https://www.yamaha-motor.co.jp/mc/lineup/jog/img/jog_color_004_2023_001.jpg", "pageUrl": "https://www.yamaha-motor.co.jp/mc/lineup/jog/color.html", "confidence": "medium", "note": "Current Yamaha Japan JOG 50, Digital Silver, 1012x664 side. Motoyuna lists 'JOG BJ' (likely an older used-import JOG generation)."},
+    {"slug": "yamaha-gear-50", "file": "yamaha-gear-50.jpg", "sourceUrl": "https://www.yamaha-motor.co.jp/mc/lineup/gear/img/gear_color_001_2022_001.jpg", "pageUrl": "https://www.yamaha-motor.co.jp/mc/lineup/gear/color.html", "confidence": "high", "note": "BONUS (not in site catalog list, but it's their Instagram promo model): Yamaha GEAR 50 white, 1012x664 side."},
+    {"slug": "yamaha-cygnus-gryphus-white", "file": "yamaha-cygnus-gryphus-white.jpg", "sourceUrl": "https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/img/cygnus-gryphus_color_003_2024_001.jpg", "pageUrl": "https://www.yamaha-motor.co.jp/mc/lineup/cygnus-gryphus/color.html", "confidence": "high", "note": "BONUS: standard Cygnus Gryphus (6th gen) white, 1012x664 side. Fallback if a generic 6G image is needed."}
+  ],
+  "skipped": [
+    {"slug": "kymco-agility-rsx-125", "reason": "No 'RSX' variant found on any official Kymco site."},
+    {"slug": "kymco-agility-rs-125", "reason": "Kymco Mexico only has Agility RS 150 with the older headlight design; Motoyuna's unit (X-shaped LED, per their IG photos) is a different face. Use their real IG photos."},
+    {"slug": "sym-gr-150", "reason": "No official SYM GR 150 page found (not on sym-global.com)."},
+    {"slug": "sym-lifetime", "reason": "No SYM 'Lifetime' model found on any official source."},
+    {"slug": "x1000-cg200-full", "reason": "X1000 brand has no findable official site/images."},
+    {"slug": "x1000-cg150", "reason": "X1000 brand has no findable official site/images."},
+    {"slug": "x1000-cg200", "reason": "X1000 brand has no findable official site/images."},
+    {"slug": "x1000-super-delivery", "reason": "X1000 brand has no findable official site/images."},
+    {"slug": "kakakto-batllo-200", "reason": "Brand not verifiable online; skipped to avoid wrong model."},
+    {"slug": "kakakto-ktf-250", "reason": "Brand not verifiable online."},
+    {"slug": "kakakto-tekken-250", "reason": "Brand not verifiable online."},
+    {"slug": "kakakto-km-sport-150", "reason": "Brand not verifiable online (and listed as AGOTADO)."},
+    {"slug": "yamaha-evolution-50", "reason": "No official Yamaha 'Evolution' 50 found (closest is 1990s Evolis YE50, no clean images)."},
+    {"slug": "yamaha-artistica-50", "reason": "No Yamaha 'Artistica/Artistic' model found."},
+    {"slug": "yamaha-nextzone-50", "reason": "'Next Zone' is an old 1990s JOG CY50 marketing name; no official studio photo available."}
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "hero-equipo": {
+    "w": 3273,
+    "h": 4096,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "kymco-rs-gris": {
+    "w": 3072,
+    "h": 4095,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "kymco-rs-rojo": {
+    "w": 3071,
+    "h": 4096,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(24,24,40)"
+  },
+  "kymco-rs-azul": {
+    "w": 3276,
+    "h": 4095,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(104,120,136)"
+  },
+  "honda-negra": {
+    "w": 3072,
+    "h": 4095,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "honda-plata": {
+    "w": 2268,
+    "h": 3024,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(8,8,24)"
+  },
+  "yamaha-gear-promo": {
+    "w": 2496,
+    "h": 3312,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(104,88,72)"
+  },
+  "yamaha-gear-showroom": {
+    "w": 720,
+    "h": 1280,
+    "widths": [
+      640,
+      720
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "yamaha-blanca": {
+    "w": 1290,
+    "h": 2347,
+    "widths": [
+      640,
+      1080,
+      1290
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "suzuki-lets": {
+    "w": 720,
+    "h": 880,
+    "widths": [
+      640,
+      720
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "hijet-cliente": {
+    "w": 3280,
+    "h": 4096,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "hijet-importada": {
+    "w": 720,
+    "h": 535,
+    "widths": [
+      640,
+      720
+    ],
+    "dominant": "rgb(8,8,8)"
+  },
+  "__products": {
+    "bajaj-platina-125": {
+      "w": 1200,
+      "h": 838,
+      "cover": false,
+      "confidence": "high"
+    },
+    "bajaj-boxer-150": {
+      "w": 1200,
+      "h": 812,
+      "cover": false,
+      "confidence": "high"
+    },
+    "kymco-agility-125": {
+      "w": 698,
+      "h": 742,
+      "cover": false,
+      "confidence": "medium"
+    },
+    "sym-jet-200": {
+      "w": 789,
+      "h": 652,
+      "cover": false,
+      "confidence": "medium"
+    },
+    "honda-supercub-50": {
+      "w": 1200,
+      "h": 1260,
+      "cover": true,
+      "confidence": "high"
+    },
+    "honda-lead-100": {
+      "w": 1200,
+      "h": 1260,
+      "cover": true,
+      "confidence": "high"
+    },
+    "honda-dio-50": {
+      "w": 1200,
+      "h": 1260,
+      "cover": true,
+      "confidence": "medium"
+    },
+    "yamaha-cygnus-6g-monster": {
+      "w": 860,
+      "h": 594,
+      "cover": false,
+      "confidence": "high"
+    },
+    "yamaha-cygnus-6g-60th": {
+      "w": 863,
+      "h": 588,
+      "cover": false,
+      "confidence": "medium"
+    },
+    "yamaha-jog-50": {
+      "w": 827,
+      "h": 617,
+      "cover": false,
+      "confidence": "medium"
+    },
+    "yamaha-gear-50": {
+      "w": 850,
+      "h": 547,
+      "cover": false,
+      "confidence": "high"
+    },
+    "yamaha-cygnus-gryphus-white": {
+      "w": 878,
+      "h": 592,
+      "cover": false,
+      "confidence": "high"
+    },
+    "x1000-cg150": {
+      "w": 885,
+      "h": 589,
+      "cover": false,
+      "confidence": "high"
+    },
+    "x1000-cg200-full": {
+      "w": 917,
+      "h": 663,
+      "cover": false,
+      "confidence": "high"
+    },
+    "x1000-cg200": {
+      "w": 917,
+      "h": 663,
+      "cover": false,
+      "confidence": "medium"
+    },
+    "x1000-super-delivery": {
+      "w": 858,
+      "h": 589,
+      "cover": false,
+      "confidence": "high"
+    }
+  },
+  "__logos": {
+    "full": {
+      "w": 2000,
+      "h": 197
+    },
+    "moto": {
+      "w": 966,
+      "h": 197
+    },
+    "yuna": {
+      "w": 1032,
+      "h": 197
+    },
+    "m": {
+      "w": 510,
+      "h": 195
+    }
+  }
+}
