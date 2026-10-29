@@ -532,9 +532,21 @@ function chromeOnScroll() {
   ScrollTrigger.create({
     start: () => hero.offsetHeight + (ScrollTrigger.getAll().find((t) => t.pin === hero)?.end - ScrollTrigger.getAll().find((t) => t.pin === hero)?.start || 0) - 80,
     end: 'max',
-    onToggle: (self) => { nav.classList.toggle('is-solid', self.isActive); dock.classList.toggle('is-on', self.isActive); },
+    onToggle: (self) => { nav.classList.toggle('is-solid', self.isActive); },
     onUpdate: (self) => nav.classList.toggle('is-hidden', self.direction === 1 && self.isActive && self.getVelocity() > 50),
   });
+
+  if (window.matchMedia('(max-width: 760px)').matches && dock) {
+    const revealDock = () => {
+      const heroBottom = $('.hero')?.getBoundingClientRect().bottom ?? 0;
+      const show = window.scrollY + window.innerHeight > Math.max(heroBottom, 200);
+      dock.classList.toggle('is-on', show);
+    };
+    revealDock();
+    window.addEventListener('scroll', revealDock, { passive: true });
+    window.addEventListener('resize', revealDock);
+  }
+
   const links = $$('.nav__links a');
   links.forEach((a) => {
     const sec = $(a.getAttribute('href'));
@@ -554,21 +566,13 @@ function lazyMap() {
 /* ───────── Loader → intro ───────── */
 async function boot() {
   window.scrollTo(0, 0);
-  lockScroll(true);
   const loader = $('.loader');
-  const countEl = $('[data-loader-count]');
-  const fill = $('.loader__logo-fill');
   const heroImg = $('.hero__img');
-  const progress = { v: 0 };
-  const draw = () => {
-    countEl.textContent = String(Math.round(progress.v)).padStart(3, '0');
-    fill.style.clipPath = `inset(0 ${100 - progress.v}% 0 0)`;
-  };
   const ready = Promise.race([
     Promise.all([document.fonts.ready, heroImg.decode ? heroImg.decode().catch(() => {}) : Promise.resolve()]),
-    new Promise((r) => setTimeout(r, 4500)),
+    new Promise((r) => setTimeout(r, 1200)),
   ]);
-  if (!reduceMotion) await gsap.to(progress, { v: 82, duration: 1.3, ease: 'power2.inOut', onUpdate: draw });
+
   await ready;
 
   const splits = splitHeadings();
@@ -576,10 +580,10 @@ async function boot() {
   if (!reduceMotion) sectionAnimations(splits);
   chromeOnScroll();
 
-  if (!reduceMotion) await gsap.to(progress, { v: 100, duration: 0.45, ease: 'power2.out', onUpdate: draw });
-  await gsap.to(loader, { clipPath: 'inset(0 0 100% 0)', duration: reduceMotion ? 0.01 : 1, ease: 'expo.inOut' });
-  loader.remove();
-  lockScroll(false);
+  if (loader) {
+    await gsap.to(loader, { autoAlpha: 0, duration: 1.8, ease: 'power2.inOut', delay: 0.8 });
+    loader.remove();
+  }
 
   if (reduceMotion) {
     gsap.set('.hero__pin', { '--p': 1, '--i': 1 });
